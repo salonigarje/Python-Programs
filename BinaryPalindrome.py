@@ -7,9 +7,9 @@ def binaryPallindrome(num):
 	binary = binary[2:]
 	return binary == binary[-1::-1]
 if __name__ == "__main__":
-    print("Enter a number : ",end="")
-    n = int(input())
-    f = binaryPallindrome(n)
+   	print("Enter a number : ",end="")
+   	n = int(input())
+    	f = binaryPallindrome(n)
     if(f):
         print("Yes, ", n, "is a palindrome in it's binary representation Form.")
     else:
